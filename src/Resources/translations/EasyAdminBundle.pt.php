@@ -2,7 +2,7 @@
 
 return [
     'page_title' => [
-        'dashboard' => 'Painel de Controle',
+        'dashboard' => 'Painel de Controlo',
         'detail' => '%entity_as_string%',
         'edit' => 'Editar %entity_label_singular%',
         'index' => '%entity_label_plural%',
@@ -11,7 +11,7 @@ return [
     ],
 
     'datagrid' => [
-        'hidden_results' => 'Alguns resultados não podem ser exibidos porque você não tem permissões suficientes',
+        'hidden_results' => 'Alguns resultados não podem ser exibidos porque não tem permissões suficientes',
         'no_results' => 'Nenhum resultado encontrado.',
     ],
 
@@ -56,20 +56,20 @@ return [
         'close' => 'Fechar',
         'create' => 'Criar',
         'create_and_add_another' => 'Criar e adicionar outro',
-        'create_and_continue' => 'Criar e continuar editando',
-        'save' => 'Salvar alterações',
-        'save_and_continue' => 'Salvar e continuar editando',
+        'create_and_continue' => 'Criar e continuar a editar',
+        'save' => 'Guardar alterações',
+        'save_and_continue' => 'Guardar e continuar a editar',
     ],
 
     'batch_action_modal' => [
-        'title' => 'Você vai aplicar a ação "%action_name%" a %num_items% item(s).',
-        'content' => 'Não há como desfazer essa operação.',
+        'title' => 'Vai aplicar a ação "%action_name%" a %num_items% item(s).',
+        'content' => 'Esta operação é irreversível.',
         'action' => 'Proceder',
     ],
 
     'delete_modal' => [
-        'title' => 'Você realmente deseja excluir este item?',
-        'content' => 'Não há como desfazer essa operação.',
+        'title' => 'Tem a certeza que deseja excluir este item?',
+        'content' => 'Esta operação é irreversível.',
     ],
 
     'filter' => [
@@ -98,16 +98,16 @@ return [
     ],
 
     'form' => [
-        'are_you_sure' => 'Você não salvou as alterações feitas neste formulário.',
+        'are_you_sure' => 'Não guardou as alterações feitas neste formulário.',
         'tab.error_badge_title' => 'Uma entrada inválida|%count% entradas inválidas',
-        'slug.confirm_text' => 'Se você alterar o slug, poderá quebrar links em outras páginas.',
+        'slug.confirm_text' => 'Se alterar o slug, pode quebrar links em outras páginas.',
     ],
 
     'user' => [
         'logged_in_as' => 'Autenticado como',
-        'unnamed' => 'Usuário sem nome',
+        'unnamed' => 'Utilizador sem nome',
         'anonymous' => 'Utilizador anónimo',
-        'sign_out' => 'Sair',
+        'sign_out' => 'Terminar sessão',
         'exit_impersonation' => 'Sair da personificação',
     ],
 
@@ -130,15 +130,15 @@ return [
     ],
 
     'exception' => [
-        'entity_not_found' => 'Este item não está mais disponível.',
+        'entity_not_found' => 'Este item já não está disponível.',
         'entity_remove' => 'Este item não pode ser excluído porque outros itens dependem dele.',
         'forbidden_action' => 'A ação solicitada não pode ser realizada neste item.',
-        'insufficient_entity_permission' => 'Você não tem permissão para acessar este item.',
+        'insufficient_entity_permission' => 'Não tem permissão para aceder a este item.',
     ],
 
     'autocomplete' => [
         'no-results-found' => 'Nenhum resultado encontrado',
         'no-more-results' => 'Não há mais resultados',
-        'loading-more-results' => 'Carregando mais resultados...',
+        'loading-more-results' => 'A carregar mais resultados...',
     ],
 ];
